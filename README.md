@@ -1,4 +1,4 @@
-# :technologist: Project Overview
+# :ping_pong: Project Overview
 
 This project consists of creating user accounts, chatting in channels and playing the game pong.
 
@@ -37,10 +37,42 @@ This project consists of creating user accounts, chatting in channels and playin
 
 <br>
 <br>
+<br>
+
+# :joystick: Use Cases
+
+All the different things a user can do when they come to this website:
+
+### :house_with_garden: Channel Owner
+- Creates, Edits and Deletes Channels
+
+### :technologist: Admin
+- Add, Edit and Remove Passwords of Channels
+- Ban, Mute and Remove Users of Channels
+- Set Admins of The Channels
+
+### :elf: User
+- Create a Profile
+- Update Profile Icon
+- Change Username
+- Enable Two-Factor Authentication
+- Add, Send Invites, Accept Invities, Remove, Block and Un-Block Friends
+
+### :ping_pong: Game
+- Play The Pong Game
+
+### :speech_balloon: Chat
+- Join and Leave Channels
+- Send Messages in Chat within the Channel
+- Send Invites to Other Users to play the Pong Game
+
+<br>
+<br>
+<br>
 
 # :package: Database Structure
 
-The Database Structure for this projects consists of the profile the user creates, the pong game stats and the chat history. The reason for this database is to show how everything is connected in this project.
+The Database Structure for this project consists of the profile the user creates, the pong game stats and the chat history. The reason for this database is to show how everything is connected in this project.
 
 ## :desktop_computer: Profile
 
