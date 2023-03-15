@@ -1,4 +1,4 @@
-# Project Overview
+# :technologist: Project Overview
 
 This project consists of creating user accounts, chatting in channels and playing the game pong.
 
@@ -34,3 +34,5 @@ This project consists of creating user accounts, chatting in channels and playin
 - 2D, 2.5D or 3D Pong.
 - Customisation Options (eg. Power-ups, Different Maps), however, the user should be able to select a default version of the game.
 - The Pong Game must be responsive.
+
+# Database Structure
