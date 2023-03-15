@@ -35,4 +35,62 @@ This project consists of creating user accounts, chatting in channels and playin
 - Customisation Options (eg. Power-ups, Different Maps), however, the user should be able to select a default version of the game.
 - The Pong Game must be responsive.
 
-# Database Structure
+<br>
+<br>
+
+# :package: Database Structure
+
+The Database Structure for this projects consists of the profile the user creates, the pong game stats and the chat history. The reason for this database is to show how everything is connected in this project.
+
+## :desktop_computer: Profile
+
+#### User
+
+- My Player ID
+- My Username
+- My Profile Icon
+- My Status (Online or Offline)
+- My 2FA (2-Way Authentication) Details
+
+## :video_game: Game
+
+#### Player
+
+- My Level
+- Number of Wins I've Had
+- Number of Losses I've Had
+
+#### Game History
+
+- All Games History ID that I've been in
+- All Game Modes that I've been in (Single or Duos or Groups) 
+- The History of Winners in Games
+- The History of Losers in Games
+- The History of Winners Scores in Games
+- The History of Losers Scores in Games
+- When The History of Games were Created
+
+## :astronaut: Chat
+
+#### Message
+
+- The Message ID
+- The Content of My Messages
+- When Those Messages was Created
+
+#### Chat Room
+
+- The Chatroom ID
+- The Chat Name
+- The Chat Channels
+- Is Channel Public
+- The Channels Password
+- When The Channel was Created
+- When The Channel was Updated
+
+#### Membership
+
+- The Membership ID
+- My Role in that Channel
+- Am I banned within a Channel
+- Am I muted within a Channel
