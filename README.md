@@ -37,7 +37,6 @@ This project consists of creating user accounts, chatting in channels and playin
 
 <br>
 <br>
-<br>
 
 # :joystick: Use Cases
 
@@ -66,7 +65,6 @@ All the different things a user can do when they come to this website:
 - Send Messages in Chat within the Channel
 - Send Invites to Other Users to play the Pong Game
 
-<br>
 <br>
 <br>
 
@@ -126,3 +124,29 @@ The Database Structure for this project consists of the profile the user creates
 - My Role in that Channel
 - Am I banned within a Channel
 - Am I muted within a Channel
+
+<br>
+<br>
+
+# :keyboard: Development
+
+### :framed_picture: Frontend 
+- Any TypeScript Framework can be chosen for this project (Vue.js, Express.js, Next.js, Angular, Svelte, etc)
+
+### :door: Backend 
+- Nest.js
+
+### :package: Database 
+- PostgreSQL  
+
+### :guard: Security 
+- Passwords must be hashed, protected against SQL injections and server-side validation for forms and any user input
+
+### :globe_with_meridians: Browsser 
+- Compatible with Google Chrome and Firefox or Safari
+
+### :runner: Run Command 
+
+```
+docker-compose up --build
+```
