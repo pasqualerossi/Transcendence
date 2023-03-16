@@ -142,7 +142,7 @@ The Database Structure for this project consists of the profile the user creates
 ### :guard: Security 
 - Passwords must be hashed, protected against SQL injections and server-side validation for forms and any user input
 
-### :globe_with_meridians: Browsser 
+### :globe_with_meridians: Browser 
 - Compatible with Google Chrome and Firefox or Safari
 
 ### :runner: Run Command 
